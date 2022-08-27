@@ -1,0 +1,2 @@
+# add to /etc/rc.local before "exit 0"
+sudo /home/sampler/volca_sampler_host -e /boot/volca_sampler_export/ | sudo tee /boot/volca_sampler_export/log 2>&1 &

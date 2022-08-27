@@ -1,0 +1,12 @@
+# replace i2c dtparams in /boot/config.txt:
+dtparam=i2c_arm=on
+dtparam=i2c_vc=on
+dtparam=i2c1=off
+dtparam=i2c0=on
+#dtparam=i2s=on
+#dtparam=spi=on
+
+# add this below:
+#gpio shutdown:
+dtoverlay=gpio-shutdown,gpio_pin3
+gpio=4=op,dh

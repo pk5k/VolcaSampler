@@ -1,0 +1,10 @@
+#ifndef MODULE_ERROR_H_INC
+#define MODULE_ERROR_H_INC
+
+#define MOD_ERR_NONE 0
+#define MOD_ERR_UNKNOWN 1
+#define MOD_ERR_CANCEL 2
+#define MOD_ERR_NODATA_THRESH 4
+
+
+#endif
